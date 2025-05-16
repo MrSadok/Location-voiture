@@ -26,8 +26,8 @@ export default function HeroBanner() {
           Location de voitures dans toute Hammamet avec une grande flotte de voitures neuves
         </h2>
         <p className="text-gray-600 text-lg max-w-4xl mx-auto">
-          Nous ne sommes pas des courtiers en location de voitures, ce qui vous permet d'éviter les frais
-          d'intermédiaires pour obtenir une location de voiture bon marché a Hammamet aux tarifs les plus bas avec
+          Nous ne sommes pas des courtiers en location de voitures, ce qui vous permet d éviter les frais
+          d intermédiaires pour obtenir une location de voiture bon marché a Hammamet aux tarifs les plus bas avec
           le meilleur service personnalisé. <span className="font-medium">Réservez</span> votre location de
           voiture a Hammamet dès maintenant.
         </p>

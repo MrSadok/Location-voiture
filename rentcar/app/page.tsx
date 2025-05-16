@@ -1,7 +1,5 @@
 'use client'; 
 import React from 'react';
-import { usePathname } from 'next/navigation';
-
 import { BookingForm } from '@/components/BookingForm';
 import { Acceuil } from '@/components/Acceuil'; 
 export default function Home() {

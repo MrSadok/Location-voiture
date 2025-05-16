@@ -24,7 +24,7 @@ export function Acceuil() {
           Location à Hammamet
           </h1>
           <p className="text-base md:text-lg lg:text-xl mb-8 drop-shadow-md max-w-xl">
-          Hammamet est l'endroit idéal pour des vacances inoubliables, et nous sommes là pour vous aider à créer les meilleurs souvenirs au volant de nos voitures.
+          Hammamet est l endroit idéal pour des vacances inoubliables, et nous sommes là pour vous aider à créer les meilleurs souvenirs au volant de nos voitures.
           </p>
           <div className="flex space-x-4">
             <Link
