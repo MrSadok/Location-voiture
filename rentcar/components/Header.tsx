@@ -52,11 +52,11 @@ export const Header = () => {
         <nav className="lg:hidden bg-white px-4 pb-4 border-t absolute w-full shadow-md z-40">
           <div className="flex flex-col space-y-3 pt-3">
             <Link href="/" className="text-gray-700 hover:text-blue-800 font-medium text-sm uppercase py-1">ACCEUIL</Link>
-            <Link href="/about" className="text-gray-700 hover:text-blue-800 font-medium text-sm uppercase py-1">À PROPOS DE NOUS</Link>
-            <Link href="/cars" className="text-gray-700 hover:text-blue-800 font-medium text-sm uppercase py-1">VOITURES</Link>
-            <Link href="/terms" className="text-gray-700 hover:text-blue-800 font-medium text-sm uppercase py-1">CONDITIONS DE LOCATION</Link>
-            <Link href="/contact" className="text-gray-700 hover:text-blue-800 font-medium text-sm uppercase py-1">CONTACT</Link>
-            <Link href="/book" className="bg-blue-800 hover:bg-blue-900 text-white font-bold py-2 px-5 rounded-md text-sm uppercase text-center mt-2">
+            <Link href="/pages/about" className="text-gray-700 hover:text-blue-800 font-medium text-sm uppercase py-1">À PROPOS DE NOUS</Link>
+            <Link href="/pages/cars" className="text-gray-700 hover:text-blue-800 font-medium text-sm uppercase py-1">VOITURES</Link>
+            <Link href="/pages/terms" className="text-gray-700 hover:text-blue-800 font-medium text-sm uppercase py-1">CONDITIONS DE LOCATION</Link>
+            <Link href="/pages/contact" className="text-gray-700 hover:text-blue-800 font-medium text-sm uppercase py-1">CONTACT</Link>
+            <Link href="/makereservation" className="bg-blue-800 hover:bg-blue-900 text-white font-bold py-2 px-5 rounded-md text-sm uppercase text-center mt-2">
             réservez maintenant
             </Link>
             {/* Mobile Top Bar Info */}

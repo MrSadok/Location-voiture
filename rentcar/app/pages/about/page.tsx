@@ -51,7 +51,7 @@ export default function AboutUs() {
 
     <div className="mb-12">
       <h3 className="text-2xl font-semibold text-[#0f2a5c] mb-8 text-center">
-        Pourquoi louer une voiture chez EuroMotorCreta ?
+        Pourquoi louer une voiture chez DRN Location Hammamet ?
       </h3>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8">
@@ -127,7 +127,7 @@ export default function AboutUs() {
             <div>
               <h4 className="font-medium text-[#0f2a5c]">Location de voiture en Crète</h4>
               <p className="text-gray-600 text-sm">
-                Chaque année, environ 2000 nouveaux clients choisissent EuroMotorCreta.com comme leur société de location de voitures
+                Chaque année, environ 2000 nouveaux clients choisissent DRN.com comme leur société de location de voitures
               </p>
             </div>
           </div>

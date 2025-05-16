@@ -1,6 +1,7 @@
 "use client"
 
 import type React from "react"
+import Swal from "sweetalert2"
 
 import { useState } from "react"
 import Image from "next/image"
@@ -70,7 +71,12 @@ export default function MakeReservation() {
     } else {
       // Final submission
       console.log("Form submitted:", formData)
-      alert("Thank you for your reservation! We will contact you shortly to confirm your booking.")
+      Swal.fire({
+        title: "Résérvation compléte!",
+        text: "Merci pour votre réservation ! Nous vous contacterons sous peu pour confirmer votre réservation.",
+        icon: "success",
+        confirmButtonText: "OK"
+      })
     }
   }
 

@@ -28,13 +28,13 @@ export function Acceuil() {
           </p>
           <div className="flex space-x-4">
             <Link
-              href="#booking-form"
+              href="/makereservation"
               className="bg-blue-700 hover:bg-blue-800 text-white font-semibold py-3 px-6 rounded-md text-sm uppercase transition duration-150 ease-in-out"
             >
               Obtenir un devis
             </Link>
             <Link
-              href="/terms"
+              href="/pages/terms"
               className="bg-black bg-opacity-60 hover:bg-opacity-80 border border-white text-white font-semibold py-3 px-6 rounded-md text-sm uppercase transition duration-150 ease-in-out"
             >
               Conditions de location
@@ -59,7 +59,7 @@ export function Acceuil() {
               <h3 className="font-semibold text-lg mb-2 text-gray-800">Voitures économiques</h3>
               <p className="text-sm text-gray-600">Parfaites pour la conduite en ville et les couples.</p>
               <Link
-                href="/cars#economy"
+                href="/pages/cars"
                 className="mt-3 inline-block text-blue-700 hover:text-blue-900 text-sm font-semibold"
               >
                 Voir les voitures →
@@ -77,7 +77,7 @@ export function Acceuil() {
               <h3 className="font-semibold text-lg mb-2 text-gray-800">SUVs & 4x4</h3>
               <p className="text-sm text-gray-600">Explorez hors des sentiers battus.</p>
               <Link
-                href="/cars#suv"
+                href="/pages/cars"
                 className="mt-3 inline-block text-blue-700 hover:text-blue-900 text-sm font-semibold"
               >
                 Voir les véhicules →
@@ -95,7 +95,7 @@ export function Acceuil() {
               <h3 className="font-semibold text-lg mb-2 text-gray-800">Cabriolets</h3>
               <p className="text-sm text-gray-600">Profitez du soleil de Hammamet avec style.</p>
               <Link
-                href="/cars#convertible"
+                href="/pages/cars"
                 className="mt-3 inline-block text-blue-700 hover:text-blue-900 text-sm font-semibold"
               >
                 Voir les véhicules →
@@ -113,7 +113,7 @@ export function Acceuil() {
               <h3 className="font-semibold text-lg mb-2 text-gray-800">Monospaces</h3>
               <p className="text-sm text-gray-600">Idéales pour les familles et les groupes.</p>
               <Link
-                href="/cars#minivan"
+                href="/pages/cars"
                 className="mt-3 inline-block text-blue-700 hover:text-blue-900 text-sm font-semibold"
               >
                 Voir les véhicules →
@@ -121,7 +121,7 @@ export function Acceuil() {
             </div>
           </div>
           <Link
-            href="/cars"
+            href="/pages/cars"
             className="mt-10 inline-block bg-blue-500 hover:bg-pink-600 text-white font-bold py-3 px-8 rounded-md text-base uppercase transition duration-150 ease-in-out"
           >
             Voir tous les véhicules

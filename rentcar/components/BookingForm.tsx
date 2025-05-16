@@ -13,9 +13,10 @@ export const BookingForm = () => {
             <div className="relative">
               <MapPin size={18} className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" />
               <select id="pickup-location" name="pickup-location" className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500 text-sm">
-                <option>Heraklion Airport</option>
-                <option>Chania Airport</option>
-                {/* Add more locations */}
+                <option>Djerba Airport</option>
+                <option>Carthage de Tunis Airport</option>
+                <option>Enfidha Airport</option>
+                <option>Monastir Airport</option>
               </select>
             </div>
           </div>

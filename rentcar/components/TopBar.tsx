@@ -6,12 +6,15 @@ export const TopBar = () => {
     <div className="bg-blue-900 text-white text-s py-4 px-4 hidden md:block">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center space-x-4 " >
-          {/* Language flags - Replace with actual flags or icons */}
-          <div className="flex space-x-1 ">
-            <span className="cursor-pointer">EN</span>
-            <span className="cursor-pointer">FR</span>
-            <span className="cursor-pointer">AR</span>
-          </div>
+          <div className="flex space-x-1 overflow-x-auto whitespace-nowrap scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-blue-100 bg-blue-500">
+          <select
+  className="px-2 py-1 rounded border border-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-500 bg-blue-900 text-white"
+>
+  <option value="en">EN</option>
+  <option value="fr">FR</option>
+  <option value="ar">TN</option>
+</select>
+</div>
           <span className="flex items-center">
           <MapPin size={14} className="mr-1 text-white" />
           Nabeul, Hammamet 8050, Tunisia

@@ -17,7 +17,7 @@ export function Footer() { // Renamed slightly for clarity
     {/* Footer content columns... */}
     <div>
        <div className="flex flex-col items-start mb-4">
-         <span className="text-xl font-bold text-white leading-none">LOCATION<span className="text-red-500">MOTOR</span></span>
+         <span className="text-xl font-bold text-white leading-none">LOCATION<span className="text-red-500">VOITURE</span></span>
          <span className="text-[7px] font-semibold text-gray-400 tracking-wider">Louer une voiture à Hammamet</span>
        </div>
       <p className="text-sm text-gray-400">Louer une voiture à Hammamet ...</p>
@@ -37,7 +37,7 @@ export function Footer() { // Renamed slightly for clarity
 </li>
 <li>
   <Link
-    href="/about"
+    href="/pages/about"
     className={`${
       pathname === '/about' ? 'text-white' : 'text-gray-400'
     } hover:text-white`}
@@ -47,7 +47,7 @@ export function Footer() { // Renamed slightly for clarity
 </li>
 <li>
   <Link
-    href="/fleet"
+    href="/pages/cars"
     className={`${
       pathname === '/fleet' ? 'text-white' : 'text-gray-400'
     } hover:text-white`}
@@ -57,7 +57,7 @@ export function Footer() { // Renamed slightly for clarity
 </li>
 <li>
   <Link
-    href="/terms"
+    href="/pages/terms"
     className={`${
       pathname === '/terms' ? 'text-white' : 'text-gray-400'
     } hover:text-white`}
@@ -67,7 +67,7 @@ export function Footer() { // Renamed slightly for clarity
 </li>
 <li>
   <Link
-    href="/contact"
+    href="/pages/contact"
     className={`${
       pathname === '/contact' ? 'text-white' : 'text-gray-400'
     } hover:text-white`}
@@ -77,7 +77,7 @@ export function Footer() { // Renamed slightly for clarity
 </li>
 <li>
   <Link
-    href="/privacy"
+    href="/"
     className={`${
       pathname === '/privacy' ? 'text-white' : 'text-gray-400'
     } hover:text-white`}

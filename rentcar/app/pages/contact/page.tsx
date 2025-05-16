@@ -4,6 +4,7 @@ import React from "react"
 import { useState } from "react"
 import { Mail, MapPin, Phone } from "lucide-react"
 import ContactHero from "@/components/contact-hero"
+import Swal from "sweetalert2"
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -25,7 +26,12 @@ export default function Contact() {
     e.preventDefault()
     // Here you would typically send the form data to a server
     console.log("Form submitted:", formData)
-    alert("Thank you for your message! We will get back to you soon.")
+    Swal.fire({
+            title: "Message envoyé!",
+            text: "Merci pour votre message ! Nous vous répondrons bientôt.",
+            icon: "success",
+            confirmButtonText: "OK"
+          })
     setFormData({
       name: "",
       email: "",
@@ -138,7 +144,7 @@ export default function Contact() {
                 <div>
                   <button
                     type="submit"
-                    className="bg-[#0f2a5c] text-white px-8 py-3 rounded-md font-medium hover:bg-[#183b7a] transition-colors"
+                    className="bg-[#0f2a5c] text-white px-8 py-3 rounded-md font-medium hover:bg-[#183b7a] transition-colors cursor-pointer"
                   >
                     Envoyer le message
                   </button>
