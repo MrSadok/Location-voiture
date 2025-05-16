@@ -1,5 +1,5 @@
 "use client";
-import { Phone, Mail, MapPin, ChevronDown, Search, Calendar, User, Menu, X, Facebook, Instagram } from 'lucide-react';
+import { Phone, Mail, MapPin, Menu, X, Facebook, Instagram } from 'lucide-react';
 import React, { useState } from 'react';
 import Link from 'next/link';
 

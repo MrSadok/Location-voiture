@@ -1,5 +1,5 @@
 'use client'; // Still needed for useState, likely for Header's mobile menu
-import React, { useState } from 'react';
+import React from 'react';
 import { Car } from "@/types/car"
 import CarCard from "@/components/car-card";
 import HeroBanner from '@/components/hero-banner';

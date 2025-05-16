@@ -6,7 +6,7 @@ import Swal from "sweetalert2"
 import { useState } from "react"
 import Image from "next/image"
 import Link from "next/link"
-import { Calendar, Clock, MapPin, Phone, Mail, ChevronRight } from "lucide-react"
+import { Calendar, Clock,ChevronRight } from "lucide-react"
 
 // Define types for form data
 type ReservationFormData = {

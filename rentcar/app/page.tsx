@@ -1,8 +1,6 @@
-// app/page.tsx (Originally your Home.tsx content)
 'use client'; // Still needed for useState, likely for Header's mobile menu
-import React, { useState } from 'react';
+import React from 'react';
 import { usePathname } from 'next/navigation';
-// You might need to install lucide-react: npm install lucide-react
 
 import { BookingForm } from '@/components/BookingForm';
 import { Acceuil } from '@/components/Acceuil'; // Assuming this is the correct path

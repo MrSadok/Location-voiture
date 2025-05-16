@@ -2,7 +2,7 @@
 import React from 'react';
 
 import Link from 'next/link';
-import { Phone, Mail, MapPin, ChevronDown, Search, Calendar, User, Menu, X, Facebook, Instagram } from 'lucide-react';
+import { Phone, Mail, MapPin, Facebook, Instagram } from 'lucide-react';
 import { usePathname } from 'next/navigation';
 
 export function Footer() { // Renamed slightly for clarity

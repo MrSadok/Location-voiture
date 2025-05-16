@@ -1,7 +1,6 @@
 "use client"
 
 import { useState } from "react"
-import Link from "next/link"
 import TermsHero from "@/components/terms-hero"
 import { ChevronDown, ChevronUp } from "lucide-react"
 
