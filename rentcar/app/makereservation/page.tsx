@@ -103,7 +103,7 @@ export default function MakeReservation() {
       {/* Page title */}
       <div className="bg-gray-100 py-10 text-center">
         <div className="container-custom">
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#0f2a5c] mb-2">Meilleure location de voiture à Hammamet"</h1>
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#0f2a5c] mb-2">Meilleure location de voiture à Hammamet</h1>
           <p className="text-gray-600">Tarifs imbattables chez DRN</p>
         </div>
       </div>

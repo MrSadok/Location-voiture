@@ -175,7 +175,7 @@ export default function Contact() {
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-8">
-              <h2 className="text-2xl md:text-3xl font-bold text-[#0f2a5c]">Heures d'ouverture</h2>
+              <h2 className="text-2xl md:text-3xl font-bold text-[#0f2a5c]">Heures Ouverture</h2>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
@@ -197,7 +197,7 @@ export default function Contact() {
 
             <div className="text-center mt-8">
               <p className="text-gray-600">
-              Pour les demandes urgentes en dehors des heures d'ouverture, veuillez appeler notre ligne d'assistance disponible 24h/24 et 7j/7.              </p>
+              Pour les demandes urgentes en dehors des heures ouverture, veuillez appeler notre ligne assistance disponible 24h/24 et 7j/7.              </p>
             </div>
           </div>
         </div>

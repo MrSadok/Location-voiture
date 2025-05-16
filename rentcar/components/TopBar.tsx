@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin, ChevronDown, Search, Calendar, User, Menu, X, Facebook, Instagram } from 'lucide-react';
+import { Phone, Mail, MapPin, Facebook, Instagram } from 'lucide-react';
 import React from 'react';
 
 export const TopBar = () => {

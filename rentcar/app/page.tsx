@@ -1,23 +1,13 @@
-'use client'; // Still needed for useState, likely for Header's mobile menu
+'use client'; 
 import React from 'react';
 import { usePathname } from 'next/navigation';
 
 import { BookingForm } from '@/components/BookingForm';
-import { Acceuil } from '@/components/Acceuil'; // Assuming this is the correct path
-// This component IS the default export for the page route '/'
+import { Acceuil } from '@/components/Acceuil'; 
 export default function Home() {
-  // State for mobile menu, if managed here or passed to Header
-  // const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const pathname = usePathname();
+
   return (
-    // No need for <html><body> tags here if you have a minimal app/layout.tsx providing those.
-    // If you *truly* have no app/layout.tsx, you'd need them here, but Next.js typically requires a root layout.
     <div className="flex flex-col min-h-screen"> {/* Optional: helps footer stick */}
-
-        {/* Added the top bar */}
-     
-
-        {/* === CONTENT AREA === */}
         <main className="flex-grow">
 
             {/* *** RENDER ACCEUIL CONTENT HERE *** */}

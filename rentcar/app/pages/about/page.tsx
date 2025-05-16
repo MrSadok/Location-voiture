@@ -74,7 +74,7 @@ export default function AboutUs() {
               <Check className="w-4 h-4 text-white" />
             </div>
             <div>
-              <h4 className="font-medium text-[#0f2a5c]">Nos clients profitent d'une conduite relaxante et sans souci</h4>
+              <h4 className="font-medium text-[#0f2a5c]">Nos clients profitent une conduite relaxante et sans souci</h4>
               <p className="text-gray-600 text-sm">
                 C’est pourquoi nous accordons beaucoup d’importance à la qualité et au service de nos véhicules
               </p>
@@ -103,7 +103,7 @@ export default function AboutUs() {
             <div>
               <h4 className="font-medium text-[#0f2a5c]">Assurance tous risques 100%</h4>
               <p className="text-gray-600 text-sm">
-                Tous nos prix de location incluent une assurance tous risques à 100% et une assurance spéciale, ainsi qu'une assistance téléphonique et routière 24h/24
+                Tous nos prix de location incluent une assurance tous risques à 100% et une assurance spéciale, ainsi qu une assistance téléphonique et routière 24h/24
               </p>
             </div>
           </div>
@@ -115,7 +115,7 @@ export default function AboutUs() {
             <div>
               <h4 className="font-medium text-[#0f2a5c]">Itinéraires magnifiques</h4>
               <p className="text-gray-600 text-sm">
-                Nous sommes ravis de vous fournir des cartes, des conseils et des itinéraires magnifiques autour de l'île
+                Nous sommes ravis de vous fournir des cartes, des conseils et des itinéraires magnifiques autour de l île
               </p>
             </div>
           </div>
